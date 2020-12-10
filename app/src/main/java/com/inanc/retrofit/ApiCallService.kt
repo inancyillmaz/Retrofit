@@ -4,7 +4,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import kotlin.math.log
+
 
 object ApiCallService{
 
@@ -16,7 +16,7 @@ object ApiCallService{
         val logging = HttpLoggingInterceptor()
         logging.level = HttpLoggingInterceptor.Level.BODY
         if(BuildConfig.DEBUG){
-            okhttp3client.addInterceptor(logging)
+        //    okhttp3client.addInterceptor(logging)
         }
     }
 

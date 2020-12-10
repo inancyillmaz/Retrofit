@@ -10,7 +10,7 @@ import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
-    private val TAG = "RETROFITBBBB"
+    private val TAG = "RETROFIT"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

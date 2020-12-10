@@ -1,2 +1,4 @@
+include ':retrofitpost'
+include ':retrofitqueries'
 include ':app'
 rootProject.name = "Retrofit"

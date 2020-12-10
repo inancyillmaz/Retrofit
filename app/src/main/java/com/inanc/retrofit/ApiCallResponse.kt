@@ -1,7 +1,5 @@
 package com.inanc.retrofit
 
-
-
 data class ApiCallResponse(
     val name: String,
     val postId: Int,
