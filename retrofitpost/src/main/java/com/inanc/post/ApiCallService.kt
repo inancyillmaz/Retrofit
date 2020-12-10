@@ -18,13 +18,6 @@ object ApiCallService {
         val logging = HttpLoggingInterceptor()
         logging.level = HttpLoggingInterceptor.Level.BODY
         okhttp3client.addInterceptor(logging)
-
-        okhttp3client.addInterceptor {chain ->
-            val request = chain.request()
-            val newRequest = request.newBuilder()
-                .addHeader("user-agent","İnanç")
-                .build()
-            chain.proceed(newRequest)}
     }
 
 
