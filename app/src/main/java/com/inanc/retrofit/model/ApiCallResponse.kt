@@ -1,4 +1,4 @@
-package com.inanc.retrofit
+package com.inanc.retrofit.model
 
 data class ApiCallResponse(
     val name: String,

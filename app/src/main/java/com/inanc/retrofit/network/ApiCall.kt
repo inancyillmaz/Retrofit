@@ -1,5 +1,6 @@
-package com.inanc.retrofit
+package com.inanc.retrofit.network
 
+import com.inanc.retrofit.model.ApiCallResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

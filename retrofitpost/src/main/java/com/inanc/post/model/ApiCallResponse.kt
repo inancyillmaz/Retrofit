@@ -1,4 +1,4 @@
-package com.inanc.retrofitpost
+package com.inanc.post.model
 
 data class ApiCallResponse(
     val id: Int,

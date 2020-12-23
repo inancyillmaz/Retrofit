@@ -1,4 +1,7 @@
-package com.inanc.retrofitqueries
+package com.inanc.retrofitqueries.model
+
+import com.inanc.retrofitqueries.model.Data
+import com.inanc.retrofitqueries.model.Explain
 
 data class MainResponse(
     val page: Int,

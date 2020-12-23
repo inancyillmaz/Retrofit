@@ -1,5 +1,6 @@
-package com.inanc.retrofitqueries
+package com.inanc.retrofitqueries.network
 
+import com.inanc.retrofitqueries.model.MainResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -7,7 +8,7 @@ import retrofit2.http.Query
 import retrofit2.http.Url
 
 
-interface ApiCall {
+interface ApiService {
 
     @GET("users?page=2")
     fun callQueryStatic(): Call<MainResponse>

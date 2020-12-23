@@ -1,9 +1,11 @@
-package com.inanc.retrofitpost
+package com.inanc.post.network
 
+import com.inanc.post.model.ApiCallResponse
+import com.inanc.post.model.Info
 import retrofit2.Call
 import retrofit2.http.*
 
-interface ApiCall {
+interface ApiService {
     @POST("posts")
     fun makePost(@Body info: Info): Call<ApiCallResponse>
 
